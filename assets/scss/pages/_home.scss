@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 700px;
+    background-image: url(/assets/img/hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+
+    #sec1{
+        .text h1,p,button{
+            color: white;
+        }
+        .btns .btn1{
+            background-color: rgb(178, 37, 84);
+            border-radius: 20px;
+            width: 200px;
+            height: 35px;
+            border: none;
+        }
+        .btn2{
+            background-color: gray;
+            border: none;
+            border-radius: 20px;
+            width: 100px;
+            height: 35px;
+        }
+        .text{
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    padding-top: 25px;
+        }
+        .text h1{
+            font-size: 60px;
+        }
+    }
+    #sec1 .container{
+        margin: 25px;
+    padding: 25px;
+    }
+}
+
+main{
+    
+    #sec2 {
+        width: 100%;
+        height: 400px;
+    }
+    
+    #sec2 .container {
+        width: 100%;
+    }
+    
+    #sec2 .imgs {
+        width: 130px;
+        height: 100px;
+        display: flex;
+    }
+#sec2 .row{
+    flex-direction: column;
+}    
+.visit{
+    margin: 25px;
+    padding: 25px;
+}
+.imgs{
+    gap: 250px;
+}
+#sec2 p{
+    display: flex;
+    gap: 8px;
+}
+
+
+
+
+
+
+    #sec3{
+        .row{
+            flex-direction: column;
+            // margin-left: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img{
+            width: 500px;
+           
+        }
+    }
+
+    #sec4{
+        width: 100%;
+        height: 700px;
+    }
+}
+#sec4{
+    display: flex;
+    flex-direction: column;
+}
+#sec4 .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 250px;
+    padding: 25px;
+}
+.col{
+    margin: 20px;
+}
+footer{
+    #sec5{
+        width: 100%;
+        height: 300px;
+        background-color: rgb(41, 39, 39);
+    }
+    .line{
+        border-bottom: 1px solid #fefcfc;
+        padding: 25px;
+    }
+    .colorlib{
+        display: flex;
+    gap: 10px;
+    margin: 25px;
+    padding: 25px;
+    margin-left: 25px;
+    h6{
+        color:gray;
+    }
+    p,i{
+        color: gray;
+    }
+    }
+    .mydiv{
+        display: flex;
+    padding: 25px;
+    }
+    .icons{
+        padding: 25px;
+    margin-top: 25px;
+    gap: 1d;
+    display: flex;
+    gap: 10px;
+    }
+}

@@ -1,0 +1,10 @@
+#image{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  margin-left: 25px;
+  margin: 25px;
+  padding: 10px;
+  gap: 120px;
+ 
+}
